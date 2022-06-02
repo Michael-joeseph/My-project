@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- login-page -->
+    <div class="container">
+
+        <div class="login">
+            <form name="myForm" onsubmit="return validateForm()" action="" method="">
+                <h2> SIGNIN</h2>
+                <!-- username
+                <div class = "form" >
+                <label > User Name < /label> <
+                input type = "text"
+            name = "username"
+            class = "inputfield"
+            id = "username"
+            placeholder = "Username" >
+                </div> -->
+
+
+                <!-- name -->
+                <div class="form1">
+                    <label> Name</labe>
+                        <input type="text" name="fname" class="inputfield" autofocus="" id="name" placeholder="name" required="" ></div>
+
+                        <p id="Nmessage"></p>
+
+                <!-- email -->
+                <div class="form1">
+                    <label>E-mail</label>
+                    <input type="email" name="email" class="inputfield" id="email" required="" placeholder=" your@emailaccount.com.. "></div>
+
+                <p id="Emessage"></p>
+
+                <!-- password -->
+                <div class="form1 ">
+                    <label> Password</label>
+                    <input type="password" name="password2" id="createpassword" placeholder="Password..." class=" inputfield " maxlength="15">
+                    <i class='bx bxs-hide bx-sm showpassword' id="show" aria-hidden="true" onclick="myFunction()"></i>
+                </div>
+
+                <p id="Pmessage"></p>
+
+                <p style="text-align:center;">
+                    <a href="# ">RESET PASSWORD?</a>
+                </p>
+
+                <!-- confirm pssword
+                <div class="form ">
+                    <label> Confirm Password </label> <input type="password " name="password " id="password " class="inputfield " placeholder="Confirm password " required=" " maxlength="15 ">
+                    <i class="bx bxs-hide bx-sm showpassword " aria-hidden="true " id="eye " onclick="toggle() "></i></div> -->
+
+                <p id="message "></p>
+
+                <!-- submmit button -->
+                <button class="button" type="" id="submit" onclick="validateForm() "> Submit info </button>
+
+                <p id="signinpage">
+                    <a href="/inde.html">Don't have an account? Login..</a>
+                </p>
+        </div>
+        </form>
+    </div>
+    </div>
+
+    <!-- boxicon javascript link -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js "></script>
+
+    <!-- my javascript -->
+    <script type="text/javascript " src="/signin.js "></script>
+
+</body>
+
+</html>
